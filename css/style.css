@@ -9,7 +9,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 200;
-  background-color: #FAFAFA;
+  background-color: hsl(0deg, 0%, 98%);
 }
 
 /*  Main    */
@@ -42,6 +42,7 @@ main {
   font-weight: 400;
   letter-spacing: 0.6px;
   line-height: 1.7;
+  color: hsl(229deg, 6%, 66%);
 }
 
 /*  featureList */
@@ -118,6 +119,7 @@ main {
 .featureItem__title {
   font-size: 20px;
   margin-bottom: 10px;
+  color: hsl(234deg, 12%, 34%);
 }
 
 .featureItem__desc {
@@ -125,6 +127,7 @@ main {
   letter-spacing: 0.6px;
   line-height: 1.8;
   font-weight: 400;
+  color: hsl(229deg, 6%, 66%);
 }
 
 /* Footer   */

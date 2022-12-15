@@ -11,7 +11,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -28,8 +27,10 @@ Users should be able to:
 
 ![Four card featured section](./images/screenshot.png)
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/)
-- Live Site URL: [GitHub Pages](https://lexsupdev.github.io/)
+### Links
+
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/four-card-feature-section-ZG4EGvmS0m)
+- Live Site URL: [GitHub Pages](https://lexsupdev.github.io/Four-card-feature-section/)
 
 ## My process
 
@@ -39,26 +40,22 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - SCSS
+- Grid 
 
 ### What I learned
+This is my first touch with Grid system
 
-Turns out that :after on an \<img\> tag simply isn't supported by most browsers. (apparently it is supported by Opera, but not much else)
-
-The best solution I can give you is to either wrap your \<img\> in a \<div\> or similar, and put the :after on that, or abandon the \<img\> tag entirely and use a background-image instead.
-
-```html
-
-```
 ```css
+.featureList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
 
 ```
-
-### Continued development
-
-I think i will add some animation.
 ### Useful resources
 
-- [https://lildude.co.uk/after-css-property-for-img-tag](https://lildude.co.uk/after-css-property-for-img-tag) - This helped me to understand why pseudo-elements didn't work with img.
+- [https://doka.guide/css/grid-guide/](https://doka.guide/css/grid-guide/) - This helped me to understand grid system.
 
 ## Author
 
